@@ -1,0 +1,143 @@
+.register {
+	height: 100vh;
+	min-height: 100vh;
+}
+
+.headerRegister h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.bgImage {
+	background-image: url('../img/secondhand.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.registerForm .formLabel {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.registerForm label {
+	margin-top: 16px;
+}
+
+.registerForm input {
+	padding: 12px 16px;
+	gap: 16px;
+	height: 48px;
+	border: 1px solid #d0d0d0;
+	border-radius: 16px;
+	box-shadow: none !important;
+}
+
+.registerForm input:focus {
+	border: 1px solid #d0d0d0;
+}
+
+.registerButton {
+	background-color: #7126b5;
+	color: #ffffff;
+	margin-top: 24px;
+}
+
+.registerButton:hover {
+	color: #ffffff;
+}
+
+.registerButton:focus {
+	background-color: #7126b5;
+	box-shadow: none;
+	border-color: #7126b5;
+}
+
+.registerForm a {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #7126b5;
+	text-decoration: none;
+}
+
+.registerForm p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	margin-top: 40px;
+}
+
+.biEyeSlash {
+	position: relative;
+	left: 93%;
+	top: -37px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.biEye {
+	position: relative;
+	left: 93%;
+	top: -37px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+linkAlreadyRegistered:focus {
+	border: none;
+}
+
+/* &---- Login ---- */
+
+.btn {
+	height: 48px;
+	width: 452px;
+	background-color: #7126b5;
+	border-radius: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.forgotPass {
+	position: relative;
+	left: 200%;
+	top: 20px;
+	font-size: 12px;
+}
+
+.control {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.control .caption {
+	position: relative;
+	top: 20px;
+	color: #888;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.control__indicator {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background: #e6e6e6;
+	border-radius: 4px;
+}
